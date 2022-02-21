@@ -15,7 +15,7 @@
 /* header and logo */
 #site_header {
     /* height: 150px; */
-    background-color: wheat;
+    /* background-color: wheat; */
     position: relative;
     padding: 0.2rem 0;
 }
@@ -23,7 +23,7 @@
 #logo {
     height: 70px;
     width: 150px;
-    background-color: rgba(223, 158, 37, 0.4);
+    /* background-color: rgba(223, 158, 37, 0.4); */
     line-height: 70px;
     margin-bottom: 1rem;
 }
@@ -60,6 +60,8 @@ a:visited {
     margin-top: 6px;
 }
 
+/* hero image section */
+
 .hero-image {
     height: 300px;
     background-color: lightblue;
@@ -69,9 +71,6 @@ a:visited {
     position: relative;
 }
 
-/* .banner {
-    max-width: 100%;
-} */
 
 .transparency-layer {
     height: 100%;
@@ -84,14 +83,30 @@ a:visited {
     position: absolute;
     left: 2rem;
     bottom: 2rem;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    
+    color: white;    
 }
 
+.quote1, .quote2, .quote3, .quote4 {
+    font-family: 'Raleway', sans-serif;
+} 
+
+/* title in between section */
+
 .title {
-    height: 100px;
-    background-color: lightcoral;
+    /* height: 100px; */
+    /* background-color: lightcoral; */
+    padding: 1rem 0;
+}
+
+.quote3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.quote4 {
+    color: rgb(104, 100, 100);
+    font-size: 0.8rem;
 }
 
 /* clearfix rule for float */
