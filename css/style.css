@@ -63,12 +63,30 @@ a:visited {
 .hero-image {
     height: 300px;
     background-color: lightblue;
-    background-image: url("./img/banner.jpg");
-    
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
-.banner {
+/* .banner {
     max-width: 100%;
+} */
+
+.transparency-layer {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 79, 144, 0.4);
+}
+
+.inspiring-quotes {
+    width: 60%;
+    position: absolute;
+    left: 2rem;
+    bottom: 2rem;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    
 }
 
 .title {
